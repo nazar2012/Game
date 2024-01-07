@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    gap: 30px;
+}
+header,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.brawl{
+    text-align: center;
+    transition: 2s;
+}
+.brawl:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: red;
+}
+.img{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: 2s;
+}
+a:hover{
+    color: black;
+}
+.roz{
+    display: flex;
+    gap: 190px;
+}
